@@ -27,6 +27,12 @@ public class FileReaderUtil {
         BufferedReader bufferedReader=new BufferedReader(fileReader);
 
         String line;
+//        int a=Integer.parseInt(bufferedReader.readLine());
+//        int b=Integer.parseInt(bufferedReader.readLine());
+//        int c=Integer.parseInt(bufferedReader.readLine());
+//        int sum=a+b+c;
+//        FileWriterUtil fileWriterUtil=new FileWriterUtil();
+//        fileWriterUtil.writeToFileText(fileLocation,String.valueOf(sum));
         while((line=bufferedReader.readLine())!=null){
             Thread.sleep(1000);
             System.out.println(line);
